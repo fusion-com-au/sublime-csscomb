@@ -11,7 +11,7 @@
         "always-semicolon": true,
 
         // Set indent for code inside blocks, including media queries and nested rules.
-        "block-indent": "    ",
+        "block-indent": "\t",
 
         // Unify case of hexadecimal colors.
         "color-case": "lower",
@@ -56,7 +56,7 @@
         "space-before-combinator": " ",
 
         // Set space before `{`.
-        "space-before-opening-brace": "\n",
+        "space-before-opening-brace": " ",
 
         // Set space before selector delimiter.
         "space-before-selector-delimiter": "",

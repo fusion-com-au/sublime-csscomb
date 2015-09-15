@@ -10,9 +10,9 @@ and consistent.
 
 You need Node.js to make this plugin work.
 
-### Caveats
+### Node Path
 
-If node has been installed with NVM you need to make a symlink to node in `/usr/local/bin`. Using OS X, the binary path would typically be `/Users/[your name]/.nvm/[node version]/bin/node`.
+If node has been installed with NVM you need to point CSScomb at one of your installed node versions binary folder, the path would typically be `~/[your name]/.nvm/[node version]/bin/`.
 
 ## Plugin usage
 

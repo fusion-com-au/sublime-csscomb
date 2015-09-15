@@ -54,9 +54,8 @@ class CssCombCommand(sublime_plugin.TextCommand):
 
     def get_env(self):
         env = None
-        if self.is_osx():
-            env = os.environ.copy()
-            env['PATH'] += self.get_node_path()
+        env = os.environ.copy()
+        env['PATH'] += self.get_node_path()
         return env
 
     def get_node_path(self):
